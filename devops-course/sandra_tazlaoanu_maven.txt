@@ -1,0 +1,179 @@
+sudo yum install git
+git --version
+git config --global user.name "Sandra T"
+get config --global user.email "sandra.tazlaoanu79@gmail.com"
+git config --global user.email "sandra.tazlaoanu79@gmail.com"
+git config --list
+ls
+mkdir repo
+cd repo
+git clone git@github.com:sandratazlaoanu/lab1-AOS.git
+git clone https://github.com/sandratazlaoanu/lab1-AOS.git
+ls
+cd lab1-AOS
+ls
+nano testFile.txt
+cat > myFile.txt
+ls
+git commit -a -m "Initial commit from VM"
+ls
+git add myFile.txt
+git commit -a -m "Initial commit from VM"
+git push 
+git pull
+ls
+git branch -a
+git checkout -b NewBranch
+git push origin NewBranch
+git checkout -b NewBranch
+git push origin NewBranch
+git branch -a
+sudo yum install nano
+nano otherFile.txt
+ls
+git commit 
+git push
+git merge
+git merge master/NewBranch
+git merge NewBranch/master
+git commit
+git merge NewBranch/master
+git merge master
+git commit -a -m "Added file from new branch"
+ls
+cat > newFile.txt
+ls
+git commit -a -m "Added file from new branch."
+git add otherFile.txt
+git add newFile.txt
+git commit -a -m "Added file from new branch.."
+git push
+ls
+git merge master
+git merge NewBranch/master
+git merge master
+git merge 
+git merge -s ours master
+git branch -a
+git chechkout master
+git checkout master
+git merge NewBranch
+git push
+history -w
+sudo yum install git
+git --version
+git config --global user.name "Sandra T"
+get config --global user.email "sandra.tazlaoanu79@gmail.com"
+git config --global user.email "sandra.tazlaoanu79@gmail.com"
+git config --list
+ls
+mkdir repo
+cd repo
+git clone git@github.com:sandratazlaoanu/lab1-AOS.git
+git clone https://github.com/sandratazlaoanu/lab1-AOS.git
+ls
+cd lab1-AOS
+ls
+nano testFile.txt
+cat > myFile.txt
+ls
+git commit -a -m "Initial commit from VM"
+ls
+git add myFile.txt
+git commit -a -m "Initial commit from VM"
+git push 
+git pull
+ls
+git branch -a
+git checkout -b NewBranch
+git push origin NewBranch
+git checkout -b NewBranch
+git push origin NewBranch
+git branch -a
+sudo yum install nano
+nano otherFile.txt
+ls
+git commit 
+git push
+git merge
+git merge master/NewBranch
+git merge NewBranch/master
+git commit
+git merge NewBranch/master
+git merge master
+git commit -a -m "Added file from new branch"
+ls
+cat > newFile.txt
+ls
+git commit -a -m "Added file from new branch."
+git add otherFile.txt
+git add newFile.txt
+git commit -a -m "Added file from new branch.."
+git push
+ls
+git merge master
+git merge NewBranch/master
+git merge master
+git merge 
+git merge -s ours master
+git branch -a
+git chechkout master
+git checkout master
+git merge NewBranch
+git push
+history -w
+ls
+history -w sandra_tazlaoanu.txt
+ls
+pwd
+yum install -y java-1.8.0-openjdk-devel
+sudo yum install -y java-1.8.0-openjdk-devel
+java -version
+ls
+cd/usr/local/src/
+cd /usr/local/src/
+sudo yum install wget
+sudo wget http://www-us.apache.org/dist/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.tar.gz
+sudo tar -xf apache-maven-3.6.2-bin.tar.gz 
+sudo mv apache-maven-3.6.2/ apache-maven/
+cd /etc/profile.d/
+sudo nano maven.sh
+export M2_HOME=/usr/local/src/apache-maven
+cd
+sudo nano maven.sh
+cd /etc/profile.d/
+sudo nano maven.sh
+sudo chmod +x maven.sh
+source /etc/profile.d/maven.sh 
+mvn –-version
+cd  /home/sandra_tazlaoanu79/
+mvn --version
+mkdir test/
+cd test
+ls
+mvn archetype:generate
+ls
+cd devops-course/
+ls
+cd src/main/java
+cd /home/sandra_tazlaoanu79
+mv /home/sandra_tazlaoanu79/Main.java /home/sandra_tazlaoanu79/test/devops-course/src/main/java
+cd home/sandra_tazlaoanu79/test/devops-course/src/main/java
+cd test/devops-course/src/main/java
+ls
+mv /home/sandra_tazlaoanu79/Customer.java /home/sandra_tazlaoanu79/test/devops-course/src/main/java
+mv /home/sandra_tazlaoanu79/HelloWorld.java /home/sandra_tazlaoanu79/test/devops-course/src/main/java
+cd test/devops-course/src/main/java
+ls
+cd ..
+cd pom.xml
+cd ..
+ls
+cd ..
+nano pom.xml
+mvn compile
+history -w sandra_tazlaoanu.txt
+cd home/sandra_tazlaoanu79/
+cd home/sandra_tazlaoanu79
+history -w sandra_tazlaoanu.txt
+history -w sandra_tazlaoanu_maven.txt
