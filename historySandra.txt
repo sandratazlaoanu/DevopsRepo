@@ -1,0 +1,763 @@
+sudo yum install git
+git --version
+git config --global user.name "Sandra T"
+get config --global user.email "sandra.tazlaoanu79@gmail.com"
+git config --global user.email "sandra.tazlaoanu79@gmail.com"
+git config --list
+ls
+mkdir repo
+cd repo
+git clone git@github.com:sandratazlaoanu/lab1-AOS.git
+git clone https://github.com/sandratazlaoanu/lab1-AOS.git
+ls
+cd lab1-AOS
+ls
+nano testFile.txt
+cat > myFile.txt
+ls
+git commit -a -m "Initial commit from VM"
+ls
+git add myFile.txt
+git commit -a -m "Initial commit from VM"
+git push 
+git pull
+ls
+git branch -a
+git checkout -b NewBranch
+git push origin NewBranch
+git checkout -b NewBranch
+git push origin NewBranch
+git branch -a
+sudo yum install nano
+nano otherFile.txt
+ls
+git commit 
+git push
+git merge
+git merge master/NewBranch
+git merge NewBranch/master
+git commit
+git merge NewBranch/master
+git merge master
+git commit -a -m "Added file from new branch"
+ls
+cat > newFile.txt
+ls
+git commit -a -m "Added file from new branch."
+git add otherFile.txt
+git add newFile.txt
+git commit -a -m "Added file from new branch.."
+git push
+ls
+git merge master
+git merge NewBranch/master
+git merge master
+git merge 
+git merge -s ours master
+git branch -a
+git chechkout master
+git checkout master
+git merge NewBranch
+git push
+history -w
+sudo yum install git
+git --version
+git config --global user.name "Sandra T"
+get config --global user.email "sandra.tazlaoanu79@gmail.com"
+git config --global user.email "sandra.tazlaoanu79@gmail.com"
+git config --list
+ls
+mkdir repo
+cd repo
+git clone git@github.com:sandratazlaoanu/lab1-AOS.git
+git clone https://github.com/sandratazlaoanu/lab1-AOS.git
+ls
+cd lab1-AOS
+ls
+nano testFile.txt
+cat > myFile.txt
+ls
+git commit -a -m "Initial commit from VM"
+ls
+git add myFile.txt
+git commit -a -m "Initial commit from VM"
+git push 
+git pull
+ls
+git branch -a
+git checkout -b NewBranch
+git push origin NewBranch
+git checkout -b NewBranch
+git push origin NewBranch
+git branch -a
+sudo yum install nano
+nano otherFile.txt
+ls
+git commit 
+git push
+git merge
+git merge master/NewBranch
+git merge NewBranch/master
+git commit
+git merge NewBranch/master
+git merge master
+git commit -a -m "Added file from new branch"
+ls
+cat > newFile.txt
+ls
+git commit -a -m "Added file from new branch."
+git add otherFile.txt
+git add newFile.txt
+git commit -a -m "Added file from new branch.."
+git push
+ls
+git merge master
+git merge NewBranch/master
+git merge master
+git merge 
+git merge -s ours master
+git branch -a
+git chechkout master
+git checkout master
+git merge NewBranch
+git push
+history -w
+ls
+history -w sandra_tazlaoanu.txt
+ls
+pwd
+yum install -y java-1.8.0-openjdk-devel
+sudo yum install -y java-1.8.0-openjdk-devel
+java -version
+ls
+cd/usr/local/src/
+cd /usr/local/src/
+sudo yum install wget
+sudo wget http://www-us.apache.org/dist/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.tar.gz
+sudo tar -xf apache-maven-3.6.2-bin.tar.gz 
+sudo mv apache-maven-3.6.2/ apache-maven/
+cd /etc/profile.d/
+sudo nano maven.sh
+export M2_HOME=/usr/local/src/apache-maven
+cd
+sudo nano maven.sh
+cd /etc/profile.d/
+sudo nano maven.sh
+sudo chmod +x maven.sh
+source /etc/profile.d/maven.sh 
+mvn –-version
+cd  /home/sandra_tazlaoanu79/
+mvn --version
+mkdir test/
+cd test
+ls
+mvn archetype:generate
+ls
+cd devops-course/
+ls
+cd src/main/java
+cd /home/sandra_tazlaoanu79
+mv /home/sandra_tazlaoanu79/Main.java /home/sandra_tazlaoanu79/test/devops-course/src/main/java
+cd home/sandra_tazlaoanu79/test/devops-course/src/main/java
+cd test/devops-course/src/main/java
+ls
+mv /home/sandra_tazlaoanu79/Customer.java /home/sandra_tazlaoanu79/test/devops-course/src/main/java
+mv /home/sandra_tazlaoanu79/HelloWorld.java /home/sandra_tazlaoanu79/test/devops-course/src/main/java
+cd test/devops-course/src/main/java
+ls
+cd ..
+cd pom.xml
+cd ..
+ls
+cd ..
+nano pom.xml
+mvn compile
+history -w sandra_tazlaoanu.txt
+cd home/sandra_tazlaoanu79/
+cd home/sandra_tazlaoanu79
+history -w sandra_tazlaoanu.txt
+history -w sandra_tazlaoanu_maven.txt
+cd ..
+history -w sandra_tazlaoanu_maven.txt
+ls
+cd test
+ls
+cd devops-course
+mvn package shade:shade
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd sandra_tazlaoanu79
+cd repo
+mvn archetype:generate -DarchetypeGroupId=webapp -DarchetypeArtifactId=maven-archetype-webapp 
+ls
+cd TomcatApp
+ls
+nano pom.xml
+mvn compile
+ls
+cd src
+ls
+cd main
+ls
+cd java
+ls
+cd web-app
+ls
+nano App.java
+cd ..
+mvn compile
+nano App.java
+ls
+cd src
+cd main/java/web-app
+nano App.java
+cd ..
+ls
+rm App.java
+ls
+mvn compile
+mvn exec:java -Dexec.mainClass=webapp.App.java
+mvn exec:java -Dexec.mainClass=web-app.App.java
+mvn exec:java -Dexec.mainClass=web-app.App
+mvn exec:java -Dexec.mainClass=webapp.App
+mvn tomcat7:start
+mvn tomcat6:start
+mvn tomcat4:start
+mvn tomcat7:start
+ls
+cd test
+ls
+cd devops-course
+ls
+cd pom.xml
+nano pom.xml
+mvn tomcat7:start
+nano pom.xml
+mvn tomcat4:start
+nano pom.xml
+cd ..
+ls
+cd ..
+ls
+cd test
+ls
+cd devops-course
+ls
+nano pom.xml
+cd ..
+ls
+cd repo
+ls
+cd TomcatApp
+ls
+nano pom.xml
+mvn tomcat7:start
+mvn install
+mvn compile
+ls
+cd src
+ls
+cd main
+ls
+cd java
+ls
+cd web-app
+ls
+nano App.java
+cd ..
+ls
+cd ..
+ls
+nano pom.xml
+cd src/test/java/web-app
+nano AppTest.java
+cd ..
+mvn clean install tomcat7:run
+ls
+nano pom.xml
+mvn clean install tomcat7:run
+nano pom.xml
+mvn clean install tomcat7:run
+mvn tomcat7:start
+mvn tomcat7:run
+ls
+cd src
+ls
+cd main
+ls
+cd java
+ls
+cd web-app
+l
+ls
+cd ..
+ls
+cd ..
+ls
+cd basic-webapp-exec/target/
+cd target java -jar basic-webapp-exec-1.0-SNAPSHOT-war-exec.jar -httpPort 9191
+cd target java -jar basic-webapp-exec-1.0-SNAPSHOT-war-exec.jar -httpPort 9090
+ls
+cd ..
+ls
+cd 
+ls
+mvn archetype:generate    -DarchetypeGroupId=org.apache.tomcat.maven    -DarchetypeArtifactId=tomcat-maven-archetype    -DarchetypeVersion=2.0-beta-1
+ls
+cd TomcatSample
+ls
+cd basic-webapp
+ls
+cd src
+ls
+cd main
+ls
+cd webapp
+ls
+nano index.html
+ mvn tomcat6:run
+cd ..
+cd basic-webapp
+ mvn tomcat6:run
+cd ..
+ mvn tomcat6:run
+history
+cd ..
+ls
+cd sandra_tazlaoanu79
+ls
+mkdir node
+ls
+cd node
+sudo yum install npm
+node --version
+sudo npm install -g json-server
+sudo npm cache clean -f 
+sudo npm install -g n
+sudo n stable 
+node --version
+sudo ln -sf /usr/local/n/versions/node/12.13.1/bin/node /usr/bin/node
+node --version
+nano db.json
+ls
+nano db.json
+json-server -H 0.0.0.0 -p 3000 -w db.json
+cd ..
+cd TomcatSample
+ls
+cd basic-webapp
+ls
+cd ..
+ls
+cd sandra_tazlaoanu79
+ls
+mkdir jenkins
+cd jenkins
+wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+java -jar jenkins.war
+sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
+sudo firewall-cmd –reload
+sudo firewall-cmd -–reload
+sudo firewall-cmd --reload
+json-server -H 0.0.0.0 -p 3000 -w db.json
+cd ..
+ls
+cd TomcatSample
+ls
+ mvn tomcat7:run
+java -jar jenkins.war
+cd jenkins
+cd ..
+cd jenkins
+java -jar jenkins.war
+mvn --v
+ls
+cd rpeo
+ls
+cd repo
+ls
+cd lab1-AOS
+ls
+cd ..
+ls
+cd test
+ls
+cd devops-course
+ls
+cd src
+ls
+cd main/jav
+cd main/java
+ls
+javac HelloWorld.java
+java HelloWorld
+javac HelloWorld.java
+cd ..
+ls
+cd ..
+mvn shade:shade
+cd devops-course
+mvn shade:shade
+ls
+nano pom.xml
+mvn shade:shade
+mvn package shade:shade
+java -version
+JAVA_HOME
+java
+mvn -v
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7 .x86_64
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.232.b09-0.el7_7.x86_64
+ls
+cd test
+ls
+git status
+ls
+git status
+git fetch
+git status
+gitk
+git status
+java -jar jenkins.war
+cd jenkins
+cd ..
+cd jenkins
+java -jar jenkins.war
+ls
+java -jar target/dependency/webapp-runner.jar target/*.war
+cd ..
+cd .jenkins/
+ls
+cd workspace
+ls
+cd App
+java -jar target/dependency/webapp-runner.jar target/*.war
+java -jar target/dependency/webapp-runner.jar target/App.war
+ls
+cd target
+ls
+java -jar target/dependency/webapp-runner.jar target/AplicatieDevops.war
+cd ..
+java -jar target/dependency/webapp-runner.jar target/AplicatieDevops.war
+cd jenkins/
+ls
+wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+java -jar jenkins.war
+sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
+sudo firewall-cmd –reload
+java -jar jenkins.war
+cd ..
+ls
+cd TomcatSample
+ls
+cd ..
+cd test
+ls
+git init
+git commit -m "third commit"
+git remote add origin https://github.com/sandratazlaoanu/DevopsCourseRepo.git
+git add .
+git commit -m "Added devops-course" 
+git push
+git fetch
+git status
+git push
+git pull
+git pull origin/master
+git status
+git add .
+git commit -m "Added devops-course" 
+git remote add origin https://github.com/sandratazlaoanu/DevopsCourseRepo.git
+git push
+git push -u origin master
+ls
+git status
+git checkout devops
+git fetch
+git checkout devops
+git status
+git add .
+git commit -m "Added devops-course" 
+git remote add origin https://github.com/sandratazlaoanu/DevopsCourseRepo.git
+git push -u origin 
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/sandratazlaoanu/DevopsRepo.git
+ git remote -v
+ git remote rm destination
+ git remote rm https://github.com/sandratazlaoanu/DevopsCourseRepo.git
+ git remote rm origin
+ git remote -v
+git init
+/home/sandra_tazlaoanu79/test/.git/
+git add README.md
+git commit -m "first commit"
+git remote -v
+git remote add origin https://github.com/sandratazlaoanu/DevopsRepo.git
+git remote -v
+git push -u origin master
+ls
+java -jar jenkins.war
+cd ..
+cd jenkins
+java -jar jenkins.war
+cd ..
+cd test
+git status
+git fetch
+git remote -v
+git status
+git checkout master
+git status
+rm -rf .git
+git status
+git init
+git remote add origin https://github.com/sandratazlaoanu/DevopsRepo.git
+git status
+git add .
+git commit -m "commit"
+git push -u origin master
+git pul
+git pull
+git push -u origin master
+git pull
+git pull master
+git pull
+git merge
+git push
+rm -rf .git
+git status
+git init
+git add README.md
+git commit -m "first commit"
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/sandratazlaoanu/DevopsRepo.git
+git push -u origin master
+git status
+ls
+cd devops-course
+ls
+cd sandra_tazlaoanu_maven.txt
+nano sandra_tazlaoanu.txt
+git status
+git add .
+git commit -m "Changed txt"
+git push
+ls
+nano something.txt
+git add .
+git commit -m "Change no.2"
+git push
+ls
+nano something.txt
+git add .
+git commit -m "Third change" 
+git push
+git add .
+git commit -m "Third change" 
+git push
+cd ..
+java -jar target/dependency/webapp-runner.jar target/*.war
+cd test
+java -jar target/dependency/webapp-runner.jar target/*.war
+java -jar jenkins.war
+cd jenkins
+java -jar jenkins.war
+history -a
+ls
+cd ..
+history
+ls
+cd TomcatSample
+ls
+cd ..
+>>txt.txt
+ls
+nano txt.txt
+cd node
+ls
+cd ..
+ls
+cd test
+ls
+cd devops-course
+ls
+cd ..
+cd /etc/profile.d/
+ls
+nano maven.sh
+cd ..
+ls
+cd ..
+ls
+cd ..
+cd..
+cd ..
+cd ../...
+cd ../..
+ls
+c hom
+cd home
+ls
+cd sandra_tazlaoanu79
+ls
+cd repo
+ls
+cd ..
+c test
+ls
+cd test
+ls
+cd devops-course
+ls
+cd src
+ls
+cd main
+ls
+cd java
+ls
+cd Main.java
+nano Main.java
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+nano pom.xml
+ls
+pwd
+cd src
+pwd
+ls
+cd min
+cd main
+pwd
+ls
+cd java
+ls
+cd devops
+ls
+cd ..
+nano Main.java
+pwd
+ls
+cd ..
+ls
+cd ..
+l
+ls
+cd ..
+ls
+nano pom.xml
+cd ..
+cd devops-course
+ls
+nano pom.xml
+c ..
+cd ..
+;s
+ls
+cd ..
+ls
+cd repo]
+cd repo
+ls
+cd TomcatApp
+ls
+nano pom.xml
+ls
+cd src
+ls
+cd main
+ls
+cd java
+ls
+cd web-app
+ls
+cd ..
+cd ...
+cd .
+cd ..
+ls
+cd ..
+ls
+cd test
+ls
+cd devops-cours
+cd devops-course
+ls
+cd src
+ls
+cd main
+ls
+cd jva
+cd java
+ls
+cd devops
+ls
+cd course
+ls
+cd ../...
+cd ..
+ls
+cd TomatCample
+cd TomcatSamke
+cd TomcatSample
+ls
+cd basic-webbapp
+s
+ls
+cd basic-webbapp
+cd basic-webapp
+ls
+cd src
+ls
+cd main
+ls
+cd webapp
+ls
+cd ..
+ls
+cd ..
+history -w sandra_tazlaoanu_maven.txt
+history -w all.txt
+ls
+cd sandra_tazlaoanu79
+ls
+cd repo
+l
+ls
+cd TomcatApp
+ls
+nano pom.xml
+ls
+cd src
+ls
+cd main
+ls
+cd java
+ls
+cd web-app
+ls
+nano App.java
+cd. .
+cd ..
+cd .
+cd ..
+c ..
+cd ..
+history -w historySandra.txt
+git status
+cd ..
+ls
+cd test
+git status
+history -w historySandra.txt
